@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>VMS Featured Student Info Form</title>
+</head>
+<body class="container" style="background: rgb(106, 100, 100);
+    padding: 2em;
+margin: 0 auto;
+background-repeat: no-repeat;
+background-size: auto;
+background: var(--color-darkblue);
+background-image: linear-gradient(
+    115deg,
+    rgba(17, 30, 173, 0.8),
+    rgba(50, 70, 169, 0.7)
+  ),
+  url(https://i.ibb.co/jLwn2L2/vms.jpg);">
+
+  <!--Seperated Because I need Seperation-->
+
+    <form id="VMS-Form" method="POST" action: >
+        <div style="display: flex;">
+        <div style=" background: #eae0cb;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: left;
+        padding: 30px 50px 100px 50px;
+        position: relative;
+        height: 760px;
+        width: 750px;
+        border-radius: 10px;">
+     <h1 style=" text-align: center;
+     margin-top: 10px;">VMS Featured Student Info Form</h1>
+    <fieldset style=" margin: 10px 10px;
+    padding-top: 10px;">
+    <div style="line-height: 1.8rem;
+    margin: 10px auto;
+    padding-top: 5px;">
+    <label>Name:</label>
+        <input placeholder="First" type="name" id="fname" style="width:120px;" !important;><input placeholder="Last" type="name" id="lname" style="width: 120px !important;
+        margin-right: 10px;">
+    <br>
+    <label>Grade:</label>
+        <select type="dropdown">
+            <option disabled>Grade</option>
+            <option>6th</option>
+            <option>7th</option>
+            <option>8th</option>
+        </select>
+    <br>
+    <label for="bday" id="bday-label">Birth Date</label>
+        <select name="bday" id="month" type="dropdown">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Marc</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>Aug</option>
+            <option>Sept</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>
+        </select>
+        <select name="bday" id="day" type="dropdown">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+        <input placeholder="Year" name="bday" id="year" type="text" style="width: 60px;
+        height: auto;">
+    <br>
+    <label>Upload a picture:</label>
+        <input type="file" name="photo" accept="image/*" /></label>
+    </div>
+    </fieldset>
+    <fieldset style=" margin: 10px 10px;
+    padding-top: 10px;">
+    <div style="margin-top: 20px;">
+        <p style="margin-bottom: 10px;">I prefer:</p>
+        <span>1.</span>
+            <label  for="movies" id="movies-label"><input type="radio" name="show" id="movies" value="movies"/> Movies</label>
+            <label for="tv-show" id="tv-show-label"><input type="radio" name="show" id="tv-show" value="tv-show"/> TV Shows</label>
+        <br>
+        <span>2.</span>
+            <label for="summer" id="summer-label"><input type="radio" name="season" id="summer" value="summer" /> Summer</label>
+            <label for="winter" id="winter-label"><input type="radio" name="season" id="winter" value="winter"/> Winter</label>
+        <br>
+        <span>3.</span>
+            <label for="marvel" id="marvel-label"><input type="radio" name="superhero" id="marvel" value="marvel">Marvel</label>
+            <label for="dc" id="dc-label"><input type="radio" name="superhero" id="dc" value="dc">DC</label>
+        <br>
+        <span>4.</span>
+            <label for="cat" id="cat-label"><input type="radio" name="animal" id="cat" value="cat">Cat</label>
+            <label for="dog" id="dog-label"><input type="radio" name="animal" id="dog" value="dog">Dog</label>
+        <br>
+        <span>5.</span>
+            <label for="car" id="car-label"><input type="radio" name="vehicle" id="car" value="car">Car</label>
+            <label for="truck" id="truck-label"><input type="radio" name="vehicle" id="truck">Truck</label>
+        <br>
+        <span>6.</span>
+            <label for="pancakes" id="pancakes-label"><input type="radio" name="breakfast" id="pancakes" value="pancakes">Pancakes</label>
+            <label for="waffles" id="waffles-label"><input type="radio" name="breakfast" id="waffles" value="waffles">Waffles</label>
+        <br>
+        <span>7.</span>
+            <label for="ice-cream" id="ice-cream-label"><input type="radio" name="desserts" id="ice-cream"
+                value="ice-cream">Ice Cream</label>
+            <label for="cake" id="cake-label"><input type="radio" name="desserts" id="cake" value="cake">Cake</label>
+        <br>
+        <span>8.</span>
+             <label for="sweet" id="sweet-label"><input type="radio" name="taste" id="sweet" value="sweet">Sweet</label>
+            <label for="spicy" id="spicy-label"><input type="radio" name="taste" id="spicy" value="spicy">Spicy</label>
+        <br>
+        <span>9.</span>
+            <label for="early" id="early-label"><input type="radio" name="sleep" id="early" value="early-riser">Stay up late</label>
+            <label for="night" id="night-label"><input type="radio" name="sleep" id="night" value="night-owl">Get up early</label>
+        <br>
+        <span>10.</span>
+            <label for="fly" id="fly-label"><input type="radio" name="transport" id="fly" value="fly">Fly</label>
+            <label for="drive" id="drive-label"><input type="radio" name="transport" id="drive" value="drive">Drive</label>
+    </div>
+    </fieldset>
+    <fieldset style=" margin: 10px 10px;
+    padding-top: 10px;">
+        <div class="margin-top: 20px;">
+    <label>3 cool things about you that others may not know:</label>
+        <br>
+        <textarea name="things" id="things"  placeholder="I am a secret agent, I love..." style="height: 100px; resize: none;
+        width: 500px;"></textarea>
+        </div>
+    <br>
+    </fieldset>
+    <div style="display: block;
+    text-align: center;">
+        <button type="submit" id="submit" value="submit" style="background-color: #51b080 !important;
+        border: none;
+        color: #f8f8f8;
+        padding: 10px 4rem;
+        text-decoration: none;
+        margin: 30px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 5px;">Go Vikings!</button>
+        </div>
+    <img src="C:\Users\itrey\Pictures\vms band.png" 
+    style="width: 140px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;">
+    </div>
+    </div>
+    <br>
+    </form>    
+</body>
+</html>x    
